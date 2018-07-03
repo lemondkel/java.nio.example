@@ -6,7 +6,7 @@ import java.util.Iterator;
 
 public class PathExample {
 	public static void main(String[] args) {
-		Path path = Paths.get("/src/java/nio/example/file/PathExample.java");
+		Path path = Paths.get("/src/example/java/nio/file/PathExample.java");
 		System.out.println("File Name: " + path.getFileName());
 		System.out.println("Parent Directory Name: " + path.getParent().getFileName());
 		System.out.println("Directory Count: " + path.getNameCount());
