@@ -14,7 +14,7 @@ import java.util.List;
 public class WatchServiceExample {
 
 	public static void main(String[] args) throws IOException, InterruptedException {
-		Path path = Paths.get("/src/example/java/nio/file/WatchServiceExample.java");
+		Path path = Paths.get("C:/");
 		WatchService watchService = FileSystems.getDefault().newWatchService();
 		path.register(watchService, StandardWatchEventKinds.ENTRY_CREATE, StandardWatchEventKinds.ENTRY_DELETE,
 				StandardWatchEventKinds.ENTRY_MODIFY);
